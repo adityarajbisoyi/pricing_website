@@ -1,0 +1,37 @@
+body {
+  font-family: "Sono", sans-serif;
+}
+
+.pricing-plan {
+  background-color: lightblue;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-basis: 1;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+
+
+  }
+  .pricing-container {
+      display: flex;
+      justify-content: space-evenly;
+      height:  500px;
+      align-items: center;
+      flex-basis: 1;
+      flex-grow: 0;
+      flex-shrink: 0;
+}
+
+.plan-price{
+    font-size: 26pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* Hint: What can you do with a media query and flexbox? */
+@media (max-width: 1250px) {
+}
